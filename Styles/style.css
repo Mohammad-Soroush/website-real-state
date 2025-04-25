@@ -116,43 +116,114 @@
 }
 .header__nav{
    display: flex;
-   justify-content: center;
    background-color: #f9f9f9;
-   gap: 1rem;
-   width: 52%;
-   align-items: center;
+   gap: 13rem;
+   padding: 4px;
+   width: 65%;
    border-radius: 0.4rem;
+}
+
+.nav__options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  gap: 1rem;
+}
+.nav__siningout{
+  display: flex;
+  align-items: center;
+  gap:0.2rem;
 }
 .nav__btn{
   border: none;
   background-color: #f9f9f9;
   padding: 0.5rem;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-inline: 12%;
+  font-size: 1.1rem;
 }
 .nav__btn:hover{
   background-color: grey;
   color: #f9f9f9;
   border-radius: 0.4rem;
   padding: 0.5rem;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-inline: 12%;
 }
+
 .nav__btn:active{
   background-color: black;
   color: #f9f9f9;
   border-radius: 0.4rem;
   padding: 0.5rem;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-inline: 12%;
   cursor: pointer;
 }
 .nav__btn1{
   border-radius: 0.4rem;
   border-color: red;
-  padding: 0.4rem;
-  padding-right: 1%;
-  padding-left:1%;
+  width: 5rem;
+  height: 2.3rem;
   color: red;
   cursor: pointer;
+  white-space: nowrap;
+  font-size: 1.1rem;
+}
+.container{
+  padding-top: 8%;
+}
+.container__upsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  white-space: nowrap;
+}
+.kind__area{
+  padding: 0.4%;
+  border-radius: 0.2rem;
+  padding-block: 0.3rem;
+  padding-inline: 1.3rem; 
+  border: 2px solid grey;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.kind__filter{
+  padding-block: 0.3rem;
+  padding-inline: 1.3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid #aaa;
+  border-radius: 0.2rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('../Images/filter-search.svg') no-repeat center right;
+  background-size: 1.1rem;
+}
+.upsection__search{
+  display: flex;
+  justify-content: center;
+  width: 24%;
+}
+.search__text{
+  width: 150%;
+  font-weight: bold;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  padding-left: 0.7rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border: 2px solid grey;
+  border-right: none !important; 
+}
+.search-icon{
+  padding-right: 0.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-left: none !important;
+  border: 2px solid grey;
+  background-color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
 }

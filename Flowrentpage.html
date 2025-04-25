@@ -11,19 +11,68 @@
 <body class="body" dir="rtl">
  <header class="flowerheader">
   <nav class="header__nav">
-    <img src="./Images/realstatelogo.svg" alt="">
+    <div class="nav__options">
+      <img src="./Images/Logo (1).svg" alt="">
       <a>اجاره</a>
       <a>خرید</a>
       <a>املاک و مستغلات</a>
       <a>مشاورین املاک</a>
       <a>اخبار روز</a>
-      <button class="nav__btn">
+    </div>
+   
+      <div class="nav__siningout">
+        <button class="nav__btn">
         ورود
       </button>
       <button class="nav__btn1">
         ثبت آگهی
-      </button>
+      </button></div>
   </nav>
  </header>
+<main>
+  <div class="container">
+    <div class="container__upsection">
+      <div class="upsection__kind">
+        <select name="area" class="kind__area">
+          <option>منطقه</option>
+          <option>تهران</option>
+          <option>دماوند</option>
+          <option>مشهد</option>
+        </select>
+        <select name="kind of house" class="kind__area">
+          <option>نوع ملک</option>
+          <option>آپارتمان</option>
+          <option>ویلایی</option>
+          <option>کلبه</option>
+        </select>
+        <select name="price" class="kind__area">
+          <option>قیمت</option>
+          <option>۱۵۵۰ تومان</option>
+          <option>۱۰۰۰تومان</option>
+          <option>۲۰۰۰تومان</option>
+        </select>
+        <select name="measure" class="kind__area">
+          <option>متراژ</option>
+          <option>۵۰۰ متری</option>
+          <option>۲۰۰متری</option>
+          <option>۱۰۰ متری</option>
+        </select>
+        <select name="filter" class="kind__filter">
+          <option>فیلتر های بیشتر</option>
+          <option>آپارتمان</option>
+          <option>ویلایی</option>
+          <option>کلبه</option>
+        </select>
+      </div>
+      <div class="upsection__search">
+        <button class="search-icon">
+          <img src="./Images/search-normal.png">
+        </button>
+        <input type="search" name="search" class="search__text" placeholder="شهر مورد نظر خود را جستجو اضافه کنید">
+      </div>  
+    </div>
+  </div>
+</main>
+ 
 </body>
 </html>
