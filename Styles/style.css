@@ -113,13 +113,15 @@
 .flowerheader{
   display: flex;
   justify-content: center;
+  width: 90%;
+  padding-right: 9%;
 }
 .header__nav{
    display: flex;
    background-color: #f9f9f9;
-   gap: 13rem;
+   gap: 20rem;
    padding: 4px;
-   width: 65%;
+   width: 80%;
    border-radius: 0.4rem;
 }
 
@@ -171,12 +173,13 @@
 }
 .container{
   padding-top: 8%;
+  width: 62%;
+  padding-inline: 17%;
 }
 .container__upsection{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 3%;
+  gap: 17%;
   white-space: nowrap;
 }
 .kind__area{
@@ -207,17 +210,16 @@
   width: 24%;
 }
 .search__text{
-  width: 150%;
   font-weight: bold;
   border-top-left-radius: 0.4rem;
   border-bottom-left-radius: 0.4rem;
-  padding-left: 0.7rem;
+  padding-left: 11rem;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   border: 2px solid grey;
   border-right: none !important; 
 }
-.search-icon{
+.search__icon{
   padding-right: 0.6rem;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
@@ -226,4 +228,45 @@
   background-color: white;
   border-top-right-radius: 0.4rem;
   border-bottom-right-radius: 0.4rem;
+}
+.title__found{
+  color: red;
+}
+.title__btn{
+padding: 0.6rem;
+padding-inline: 1.4rem;
+background: url(../Images/sort.svg) no-repeat center right;
+border: 0.1rem solid grey;
+border-radius: 5px;
+}
+.rightside__title{
+  display: flex;
+  align-items: center;
+  gap: 58%;
+  width:565px;
+}
+.pics__pic1{
+ background-color: #f9f9f9;
+ width: 34%;
+ overflow: hidden;
+ border-radius: 1rem; 
+}
+.pic1__combin{
+  display: flex;
+  align-items: center;
+  height: 1.6rem;
+  width: 99%;
+  gap: 40%;
+  padding-right: 12px;
+  font-size: 14px;
+  color: #aaa;
+}
+.pic1__text{
+  font-size: 14px;
+  padding-right: 12px;
+  font-weight: bold;
+  }
+.pic1__text1{
+  font-size: 14px;
+  padding-right: 12px;
 }

@@ -7,6 +7,7 @@
   <link href="./Styles/font.css" rel="stylesheet">
   <link href="./Styles/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./Styles/stylecss.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="body" dir="rtl">
  <header class="flowerheader">
@@ -30,7 +31,7 @@
   </nav>
  </header>
 <main>
-  <div class="container">
+  <div class="container" dir="rtl">
     <div class="container__upsection">
       <div class="upsection__kind">
         <select name="area" class="kind__area">
@@ -65,11 +66,34 @@
         </select>
       </div>
       <div class="upsection__search">
-        <button class="search-icon">
+        <button class="search__icon">
           <img src="./Images/search-normal.png">
         </button>
         <input type="search" name="search" class="search__text" placeholder="شهر مورد نظر خود را جستجو اضافه کنید">
       </div>  
+    </div>
+    <div class="container__rightside">
+      <h2>املاک اجاره ای</h2>
+    <div class="rightside__title">
+      <p class="title__found" >۴۷.۵۰۷ مورد یافت شد</p>
+      <select class="title__btn">
+        <option>جدیدترین</option>
+      </select>
+    </div>  
+     <div class="rightside__pics">
+      <div class="pics__pic1">
+        <img src="./Images/Home Photos (2)pl.png">
+        <div class="pic1__combin">
+          <p class="combin__text">رهن و اجاره آپارتمان‌ نوساز</p>
+          <img src="./Images/save.png">
+        </div>
+        <p class="pic1__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+        <p class="pic1__text">۲۵۰ میلیون تومان رهن</p>
+        <p class="pic1__text">۱۵ میلیون تومان رهن</p>
+      </div>
+      <div class="pics__pic2"></div>
+      <div class="pics__pic3"></div>
+     </div>
     </div>
   </div>
 </main>
