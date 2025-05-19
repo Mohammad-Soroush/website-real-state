@@ -3,22 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="Images/realstate2.png" type="image/x icon"/>
+  <link rel="icon" href="Images/svg/Logo (1).svg" type="image/x icon"/>
   <link href="./Styles/font.css" rel="stylesheet">
-  <link href="./Styles/style.css" rel="stylesheet">
+  <link href="./Styles/app.css" rel="stylesheet">
   <link rel="stylesheet" href="./Styles/stylecss.css">
-  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="body" dir="rtl">
  <header class="flowerheader">
   <nav class="header__nav">
     <div class="nav__options">
-      <img src="./Images/Logo (1).svg" alt="">
-      <a>اجاره</a>
-      <a>خرید</a>
-      <a>املاک و مستغلات</a>
-      <a>مشاورین املاک</a>
-      <a>اخبار روز</a>
+      <img src="./Images/svg/Logo (1).svg" alt="">
+      <a src="#">اجاره</a>
+      <a src="#">خرید</a>
+      <a src="#">املاک و مستغلات</a>
+      <a src="#">مشاورین املاک</a>
+      <a src="#">اخبار روز</a>
     </div>
    
       <div class="nav__siningout">
@@ -65,38 +64,394 @@
           <option>کلبه</option>
         </select>
       </div>
-      <div class="upsection__search">
-        <button class="search__icon">
-          <img src="./Images/search-normal.png">
-        </button>
-        <input type="search" name="search" class="search__text" placeholder="شهر مورد نظر خود را جستجو اضافه کنید">
-      </div>  
-    </div>
-    <div class="container__rightside">
-      <h2>املاک اجاره ای</h2>
-    <div class="rightside__title">
-      <p class="title__found" >۴۷.۵۰۷ مورد یافت شد</p>
-      <select class="title__btn">
-        <option>جدیدترین</option>
-      </select>
-    </div>  
-     <div class="rightside__pics">
-      <div class="pics__pic1">
-        <img src="./Images/Home Photos (2)pl.png">
-        <div class="pic1__combin">
-          <p class="combin__text">رهن و اجاره آپارتمان‌ نوساز</p>
-          <img src="./Images/save.png">
-        </div>
-        <p class="pic1__text1">۹۵متری، محدوده آزادی خیابان جی</p>
-        <p class="pic1__text">۲۵۰ میلیون تومان رهن</p>
-        <p class="pic1__text">۱۵ میلیون تومان رهن</p>
+      <div class="upsection__searchbar">
+        <form>
+          <input type="search" name="search" placeholder="لطفا متن خود را وارد کنید">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+        </form>
       </div>
-      <div class="pics__pic2"></div>
-      <div class="pics__pic3"></div>
-     </div>
+    </div>
+    <div class="container__upcontent">
+      <div class="upcontent__rightside">
+        <h2>املاک اجاره ای</h2>
+      <div class="rightside__title">
+        <p class="title__found" >۴۷.۵۰۷ مورد یافت شد</p>
+        <select class="title__btn">
+          <option>جدیدترین</option>
+        </select>
+      </div>
+      <div class="rightside__vertical">
+        <div class="vertical__Horizontal-pics">
+          <div class="pics__pic1">
+            <div class="image">
+              <img src="./Images/png/Home Photos (2)pl.png">
+              <p class="timer">۱ ساعت پیش</p>
+            </div>
+            <div class="pic1__combin">
+              <p class="combin__text">رهن و اجاره آپارتمان‌ نوساز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic1__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic1__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic1__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="pics__pic1">
+            <div class="image">
+              <img src="./Images/png/Photo Place.png">
+              <p class="timer">۲ ساعت پیش</p>
+            </div>
+            <div class="pic1__combin">
+              <p class="combin__text">رهن و اجاره آپارتمان‌ </p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic1__text1">۱۰۰متری، محدوده آزادی خیابان جی</p>
+            <p class="pic1__text">۶۰۰ میلیون تومان رهن</p>
+            <p class="pic1__text">۳۰ میلیون تومان اجاره</p>
+          </div>
+         </div>
+         <div class="vertical__Horizontal-pics">
+          <div class="pics__pic1">
+            <div class="image">
+              <img src="./Images/png/Livingroom.png">
+              <p class="timer">۴ ساعت پیش</p>
+            </div>
+            <div class="pic1__combin">
+              <p class="combin__text">رهن و اجاره آپارتمان‌ نوساز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic1__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic1__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic1__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="pics__pic1">
+            <div class="image">
+              <img src="./Images/png/dinnigroom.png">
+              <p class="timer">۷ ساعت پیش</p>
+            </div>
+            <div class="pic1__combin">
+              <p class="combin__text">رهن و اجاره آپارتمان‌ </p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic1__text1">۱۰۰متری، محدوده آزادی خیابان جی</p>
+            <p class="pic1__text">۶۰۰ میلیون تومان رهن</p>
+            <p class="pic1__text">۳۰ میلیون تومان اجاره</p>
+          </div>
+         </div>
+      </div>   
+      </div>
+      <div class="upcontent__map">
+        <img src="./Images/png/Map.png" alt="">
+      </div>
+    </div>
+    <div class="container__offices">
+      <h2>دفاتر املاک مرتبط</h2>
+      <div class="offices__names">
+        <div class="name__Alborz">
+          <img src="./Images/logo/Logo (4).png" alt="">
+          <p>تهران، آجودانیه، خیابان البرز</p>
+          <div class="Alborz__text">
+            <p>میزان رضایتمندی: ۵ از ۵</p>
+            <p>آگهی‌های فعال: بیش از ۱۷۰۰ </p>
+            <p>مشاهده نظرات کاربران (۲۰ نظر)</p>
+          </div>
+        </div>
+        <div class="name__VliAsre">
+          <img src="./Images/logo/Logo (1).png" alt="">
+          <p>تهران، خیابان ولیعصر، توانیر</p>
+          <div class="VliAsre__text">
+            <p>میزان رضایتمندی: ۴ از ۵</p>
+            <p>آگهی‌های فعال: بیش از ۲۰۰۰ </p>
+            <p>مشاهده نظرات کاربران (۱۲ نظر)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container__Vertical">
+            <div class="Vertical__Horizontal">
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=13.png">
+              <p class="pic2__timer">۸ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان سه خوابه </p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۱۵۵ متری، نیاوران</p>
+            <p class="pic2__text">۵۰۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۴۵ میلیون تومان اجاره</p>
+          </div>
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=16.png">
+              <p class="pic2__timer">۱۰ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان فول امکانات </p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۱۷۰ متر، زعفرانیه، خیابان الف</p>
+            <p class="pic2__text">۹۹۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۹ میلیون تومان اجاره</p>
+          </div>
+         </div>
+       <div class="Vertical__Horizontal">
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=15.png">
+              <p class="pic2__timer">۱۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان فول امکانات</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=8.png">
+              <p class="pic2__timer">۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره خانه بازسازی شده و تمیز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+         </div>
+         <div class="Vertical__dependedLink">
+          <h2>لینک های مرتبط</h2>
+          <div class="dependedLink__names">
+            <p>املاک در نارمک</p>
+            <p>املاک در پونک</p>
+            <p>املاک در ولنجک</p>
+            <p>املاک در دروس</p>
+          </div>
+         </div>
+         <div class="Vertical__Horizontal">
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=20.png">
+              <p class="pic2__timer">۱۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان فول امکانات</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=16.png">
+              <p class="pic2__timer">۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره خانه بازسازی شده و تمیز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          
+         </div>
+         <div class="Vertical__Horizontal">
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=6.png">
+              <p class="pic2__timer">۱۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان فول امکانات</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=8.png">
+              <p class="pic2__timer">۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره خانه بازسازی شده و تمیز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          
+         </div>
+         <div class="Vertical__Horizontal">
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=13.png">
+              <p class="pic2__timer">۱۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره آپارتمان فول امکانات</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          <div class="Horizontal__pic2">
+            <div class="pic2__image">
+              <img src="./Images/png/Home Photos=8.png">
+              <p class="pic2__timer">۱ ساعت پیش</p>
+            </div>
+            <div class="pic2__combin1">
+              <p class="combin1__text">اجاره خانه بازسازی شده و تمیز</p>
+              <img src="./Images/png/save.png">
+              
+            </div>
+            <p class="pic2__text1">۹۵متری، محدوده آزادی خیابان جی</p>
+            <p class="pic2__text">۲۵۰ میلیون تومان رهن</p>
+            <p class="pic2__text">۱۵ میلیون تومان رهن</p>
+          </div>
+          
+         </div>
     </div>
   </div>
 </main>
- 
+<footer>
+  <div class="footer__up">
+    <h1>سقفینو؛ سقفی ایده‌آل برای زندگی</h1>
+    <div class="up__list">
+      <div class="list__textlist">
+        <h2>بازارهای املاک و مستغلات</h2>
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+      <div class="list__textlist">
+        <h2>بازارهای املاک و مستغلات</h2>
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+       <div class="list__textlist">
+        <h2>بازارهای املاک و مستغلات</h2>
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+      <div class="list__socialmedia">
+        <h2>ارتباط با ما</h2>
+        <div class="socialmedia__logo">
+          <div class="logo__social">
+            <img src="./Images/png/call.png" alt="">
+            <p>تلفن</p>
+          </div>
+          <div class="logo__social">
+            <img src="./Images/png/instagram.png" alt="">
+            <p>اینستاگرام</p>
+          </div>
+          <div class="logo__social">
+            <img src="./Images/png/social media icons.png" alt="">
+            <p>تلگرام</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="up__moredetail">
+      <details class="moredetail__content">
+        <summary>
+          موارد بیشتر
+        </summary>
+        <div class="list__textlist">
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+      </details>
+      <details class="moredetail__content">
+        <summary>
+          موارد بیشتر
+        </summary>
+        <div class="list__textlist">
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+      </details>
+      <details class="moredetail__content">
+        <summary>
+          موارد بیشتر
+        </summary>
+      <div class="list__textlist">
+        <a href="#">بازار املاک و مستغلات تهران</a>
+        <a href="#">بازار املاک و مستغلات اصفهان</a>
+        <a href="#">بازار املاک و مستغلات شمال</a>
+      </div>
+      </details>
+    </div>
+  </div>
+  <div class="footer__down">
+    <div class="down__logotext">
+      <img src="./Images/svg/Logo (1).svg" alt="">
+      <h3>تجربه لذت خانه‌دار شدن سریع و آسان</h3>
+      <p>سقفینو پلی است تا به سرعت در بین هزاران آگهی ثبت‌شده جست‌وجو کنید. <br>
+ملک مورد نظر را پیدا کنید و برای انجام معامله‌ای مطمئن، با مشاورین املاک معتمد و متخصص شهرتان در ارتباط باشید.</p>
+    </div>
+    <div class="list__textlist">
+        <h2>خدمات</h2>
+        <a href="#">اجاره</a>
+        <a href="#">خرید</a>
+        <a href="#">ثبت رایگان آگهی ملک</a>
+        <a href="#">املاک و مستغلات</a>
+        <a href="#">مشاورین املاک</a>
+        <a href="#">اخبار روز املاک</a>
+        <a href="#">سوال ملکی دارید؟</a>
+      </div>
+    <div class="list__textlist">
+        <h2>اطلاعات</h2>
+        <a href="#">دانلود اپلیکشن سقفینو</a>
+        <a href="#">تماس با ما</a>
+        <a href="#">داستان ‌سقفینو</a>
+        <a href="#">پرسش‌های پرتکرار</a>
+        <a href="#">یک سقف؛ بلاگ سقفینو</a>
+        <a href="#">حریم شخصی شما</a>
+        <a href="#">تعهدات ما و شما</a>
+    </div>
+    <div class="list__textlist">
+        <h2>حساب کاربری</h2>
+        <a href="#">پروفایل من</a>
+        <a href="#">ملک‌های نشان‌شده</a>
+        <a href="#">آگهی‌های من</a>
+      <img src="./Images/png/Logo12.png" alt="">
+    </div>
+  </div>
+  <div class="footer__houses">
+     <img src="./Images/png/mutlihouse.png" alt="">
+  </div>
+ <div class="footer__policy">
+  <p>حقوق این سایت متعلق به سقفینو است</p>
+ </div>
+</footer>
 </body>
 </html>
