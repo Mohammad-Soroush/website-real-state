@@ -5,22 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./Images/svg/Logo (1).svg" type="image/x icon"/>
   <link href="./Styles/font.css" rel="stylesheet">
-  <link href="./Styles/app.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/index/tailwindfont.css">
+  <link href="./Styles/index/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./Styles/tailwind.css">
+  <link href="./Styles/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/loginpopup/loginpopup.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white" dir="rtl" font-family="RAVI-REGULAR">
+<body class="bg-white" dir="rtl" >
   <header class=" bg-[url('./Images/png/lookingfornew.png')] bg-cover pt-7" style="height: 900px">
-    <nav class="bg-[#F9F9F9F9]    p-4 rounded-3xl w-2/3 mx-auto">
+    <nav class="bg-[#F9F9F9F9] p-4 rounded-3xl w-2/3 mx-auto">
       <div class="flex flex-row items-center justify-center gap-4 mt-1">
         <img src="./Images/svg/Logo (1).svg">
-        <a href="#" class="p-3">اجاره </a>
-        <a href="#"class="p-3">خرید </a>
-        <a href="#" class="p-3"> املاک مستغلات  </a>
-        <a href="#" class="p-3"> مشاورین املاک </a>
-        <a href="#" class="p-3"> اخبار روز </a>
+        <ul class="flex">
+        <a href="./second_index.html" class="p-3"><Li>اجاره</Li> </a>
+        <a href="#"class="p-3"> <li>خرید</li></a>
+        <a href="#" class="p-3"> <li>املاک مستغلات</li>  </a>
+        <a href="#" class="p-3">  <li>مشاورین املاک</li></a>
+        <a href="#" class="p-3">  <li>اخبار روز</li></a>
+        </ul>
         <div dir="rtl" class="ps-16 mr-1">
-          <button class="text-black p-5 hover:bg-gray-400 hover:text-amber-50 text-center active:bg-gray-500 rounded-xl">
+          <button  type="submit"  class="text-black p-5 hover:bg-gray-400 hover:text-amber-50 text-center active:bg-gray-500 rounded-xl" onclick="loginpage()">
             ورود
           </button>
           <button class="p-4 text-gray-950 border-4 border-solid border-red-700  hover:bg-gray-400 hover:border-red-800  hover:text-amber-50 text-center active:border-red-400 active:bg-gray-500 rounded-xl ">
@@ -44,7 +49,20 @@
     
   </header>
   <main>
-  <script src="./Scripts/scripts.js"></script>
+  <div class="loginpages" id="loginpages">
+    <div class="loginpages__closebtn" onclick="closepage()">
+       <button>x</button>
+    </div>
+    <h3>ورود</h3>
+    <p>به سقفینو خوش آمدید</p>
+    <p class="loginpage__numtext">لطفا برای ورود شماره موبایل خود را وارد کنید</p>
+    <input type="tel" name="tel">
+    <div class="loginpage__checkbox">
+        <input type="checkbox" name="checkbox">
+        <label> سقفینو <a href="#"> موافق قوانین </a> هستم </label>
+    </div>
+    <button>ورود</button>
+</div>
   <div id="popup" class="popup">
     <div class="popup-content">
       <div class="popupinside">
@@ -253,7 +271,7 @@
         </div>
       </div>
      </div>
-     <div class="bg-[#F9F9F9] border-t-2">
+     <div class="bg-[#F9F9F9] border-t-black">
       <div class="flex justify-center gap-32">
         <div dir="rtl" class="grid grid-cols gap-4 pt-9 w-72">
           <img src="./Images/png/Logo.png" alt="">
@@ -298,5 +316,6 @@
       </div>
        </div>
    </footer>
+<script src="./Scripts/scripts.js"></script>
 </body>
 </html>

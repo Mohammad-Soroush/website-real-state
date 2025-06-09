@@ -35,3 +35,10 @@ document.querySelector('.delete-btn').addEventListener('click', function() {
         checkbox.checked = false;
     });
 });
+
+  function loginpage() {
+    document.getElementById("loginpages").classList.add("show");
+  }
+  function closepage(){
+    document.getElementById("loginpages").classList.remove("show");
+  }

@@ -1,0 +1,67 @@
+.popup { 
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* مهم! پاپ‌آپ را در جای خود ثابت نگه می‌دارد */
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.4s, top 0.4s;
+}
+.popup-content {
+  background: white;
+  width: 45%;
+  height: 55%;
+  right: 400px;
+  top: 180px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative; /* مهم! جلوگیری از تغییر ناگهانی مکان */
+}
+.popupinside{
+  display: flex;
+  background-color: #f9f9f9;
+  height: 350px;
+  flex-direction: column;
+  padding-top: 18px;
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.call_text1{
+  display: flex;
+  justify-content: center;
+}
+.call_text2{
+  display: flex;
+  justify-content: center;
+}
+.realtxt{
+  display: flex;
+  justify-content: center;
+}
+.pic_realstate{
+  padding-right: 38%;
+}
+.close{
+  position:absolute;
+  top: 20px;
+  right: 92%;
+  font-size: 30px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+.close:hover{
+  background-color: black;
+  color: white;
+}

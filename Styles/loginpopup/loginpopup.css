@@ -1,0 +1,99 @@
+.loginpages{
+  margin-top:-50%;
+  margin-right: 48%;
+  margin-bottom: 15%;
+  padding: 0.9rem;
+  gap: 1.3rem;
+  padding-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius:1rem;
+  width: 30%;
+  height: 52%;
+  top: 0;
+  right: -229px;
+  transform: translate(-2%,-90%) scale(10%,10%);
+  transition: transform 0.5s;
+}
+.loginpages.show{ 
+  margin-top:11%;
+  margin-right: 48%;
+  padding: 0.9rem;
+  gap: 1rem;
+  padding-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius:1rem;
+  position: fixed;
+  width: 30%;
+  height: 52%;
+  top: 0;
+  right: -229px;
+  transform: translate(-5%, 12%) scale(1); 
+}
+.loginpages > h3{
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-block: 0.1rem;
+  margin-top: 0.2rem;
+}
+.loginpage__numtext{
+  margin-block-start: 1%;
+}
+.loginpages > input{
+  width: 19.5rem;
+  border-radius: 2%;
+  outline: none;
+  padding: 0.3rem;
+  border:2px solid gray;
+  border-radius: 0.2rem;
+}
+.loginpage__checkbox{
+  margin-block: 1rem;
+  margin-left: 6.7rem;  
+  
+}
+.loginpage__checkbox > input{
+  margin-inline: 0.1rem;
+  width: 1rem;
+  height: 1rem;
+}
+.loginpage__checkbox > label > a{
+  text-decoration: none; 
+  color:red;
+}
+.loginpages > button{
+  width: 19.5rem;
+  background-color: red;
+  color: white;
+
+  border-radius: 0.2rem;
+  padding-block: 0.2rem;
+  border: 2px solid red
+}
+.loginpages > button:active{
+  width: 19.5rem;
+  background-color: rgb(151, 2, 2);
+  color: white;
+  border-radius: 0.2rem;
+  padding-block: 0.2rem;
+  border: 2px solid rgb(151, 2, 2);
+}
+.loginpages__closebtn > button{
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 2.2rem;
+  height: 2rem;
+  margin-right: 23rem;
+  margin-bottom: 1px;
+}
+.loginpages__closebtn > button:active{
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+}
